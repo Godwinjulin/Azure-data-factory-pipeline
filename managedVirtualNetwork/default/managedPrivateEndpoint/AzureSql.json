@@ -1,0 +1,7 @@
+{
+	"name": "AzureSql",
+	"properties": {
+		"privateLinkResourceId": "/subscriptions/4be40ab3-4495-4f7d-bb7c-148801189940/resourceGroups/Zenith3/providers/Microsoft.Sql/servers/sql-serv0",
+		"groupId": "sqlServer"
+	}
+}
