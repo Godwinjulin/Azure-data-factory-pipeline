@@ -1,0 +1,9 @@
+{
+	"name": "adf-sql2",
+	"location": "uksouth",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "22932a7e-ec25-42d8-9d26-020ac19dfaf2",
+		"tenantId": "2ec74eb2-8abf-41e4-8db5-76aa27481130"
+	}
+}
