@@ -1,0 +1,56 @@
+{
+	"$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"type": "string",
+			"metadata": "Data Factory name",
+			"defaultValue": "adf-saas"
+		},
+		"AzureSqlDatabase533_properties_privateLinkResourceId": {
+			"type": "string",
+			"defaultValue": "/subscriptions/4be40ab3-4495-4f7d-bb7c-148801189940/resourceGroups/Zenith3/providers/Microsoft.Sql/servers/sql-serv1"
+		},
+		"AzureSqlDatabase533_properties_groupId": {
+			"type": "string",
+			"defaultValue": "sqlServer"
+		},
+		"containerUri": {
+			"type": "string",
+			"metadata": "URI to storage account containing linked ARM templates"
+		},
+		"containerSasToken": {
+			"type": "string",
+			"metadata": "Sas token to storage account containing linked ARM templates"
+		}
+	},
+	"variables": {
+		"factoryId": "[concat('Microsoft.DataFactory/factories/', parameters('factoryName'))]"
+	},
+	"resources": [
+		{
+			"name": "adf-saas_ArmTemplate_0",
+			"type": "Microsoft.Resources/deployments",
+			"apiVersion": "2018-02-01",
+			"properties": {
+				"mode": "incremental",
+				"templateLink": {
+					"uri": "[concat(parameters('containerUri'), '/ArmTemplate_0.json', parameters('containerSasToken'))]",
+					"contentVersion": "1.0.0.0"
+				},
+				"parameters": {
+					"factoryName": {
+						"value": "[parameters('factoryName')]"
+					},
+					"AzureSqlDatabase533_properties_privateLinkResourceId": {
+						"value": "[parameters('AzureSqlDatabase533_properties_privateLinkResourceId')]"
+					},
+					"AzureSqlDatabase533_properties_groupId": {
+						"value": "[parameters('AzureSqlDatabase533_properties_groupId')]"
+					}
+				}
+			},
+			"dependsOn": []
+		}
+	]
+}

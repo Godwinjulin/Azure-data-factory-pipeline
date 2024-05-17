@@ -1,0 +1,21 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adf-saas"
+		},
+		"AzureSqlDatabase533_properties_privateLinkResourceId": {
+			"value": "/subscriptions/4be40ab3-4495-4f7d-bb7c-148801189940/resourceGroups/Zenith3/providers/Microsoft.Sql/servers/sql-serv1"
+		},
+		"AzureSqlDatabase533_properties_groupId": {
+			"value": "sqlServer"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
