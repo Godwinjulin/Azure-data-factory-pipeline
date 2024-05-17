@@ -1,0 +1,9 @@
+{
+	"name": "adf-saas",
+	"location": "uksouth",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "7d7b0482-cf32-453a-8ffd-57a83203df92",
+		"tenantId": "2ec74eb2-8abf-41e4-8db5-76aa27481130"
+	}
+}
