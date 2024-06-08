@@ -1,0 +1,10 @@
+{
+	"name": "AzureSqlDatabase336",
+	"properties": {
+		"privateLinkResourceId": "/subscriptions/4be40ab3-4495-4f7d-bb7c-148801189940/resourceGroups/rg-uba/providers/Microsoft.Sql/servers/uba-ser2",
+		"groupId": "sqlServer",
+		"fqdns": [
+			"uba-ser2.database.windows.net"
+		]
+	}
+}

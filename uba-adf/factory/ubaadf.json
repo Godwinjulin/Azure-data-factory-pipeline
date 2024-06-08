@@ -1,0 +1,14 @@
+{
+	"name": "ubaadf",
+	"properties": {
+		"globalConfigurations": {
+			"PolicyValidationEnabled": "false"
+		}
+	},
+	"location": "uksouth",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "d3603c47-8926-4fe8-91f6-4016ecb2cfdb",
+		"tenantId": "2ec74eb2-8abf-41e4-8db5-76aa27481130"
+	}
+}

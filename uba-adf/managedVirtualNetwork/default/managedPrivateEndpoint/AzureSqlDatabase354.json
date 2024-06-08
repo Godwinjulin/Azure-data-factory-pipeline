@@ -1,0 +1,10 @@
+{
+	"name": "AzureSqlDatabase354",
+	"properties": {
+		"privateLinkResourceId": "/subscriptions/4be40ab3-4495-4f7d-bb7c-148801189940/resourceGroups/rg-uba/providers/Microsoft.Sql/servers/uba-serv",
+		"groupId": "sqlServer",
+		"fqdns": [
+			"uba-serv.database.windows.net"
+		]
+	}
+}
