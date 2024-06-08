@@ -1,0 +1,61 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "ubaadf"
+		},
+		"AzureSqlDatabase1_password": {
+			"value": ""
+		},
+		"AzureSqlDatabase2_password": {
+			"value": ""
+		},
+		"AzureSqlDatabase1_properties_typeProperties_server": {
+			"value": "uba-serv.database.windows.net"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_database": {
+			"value": "uba-db"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_userName": {
+			"value": "ubaadmin"
+		},
+		"AzureSqlDatabase2_properties_typeProperties_server": {
+			"value": "uba-ser2.database.windows.net"
+		},
+		"AzureSqlDatabase2_properties_typeProperties_database": {
+			"value": "ubadb2"
+		},
+		"AzureSqlDatabase2_properties_typeProperties_userName": {
+			"value": "ubaadmin"
+		},
+		"AzureSqlDatabase336_properties_privateLinkResourceId": {
+			"value": "/subscriptions/4be40ab3-4495-4f7d-bb7c-148801189940/resourceGroups/rg-uba/providers/Microsoft.Sql/servers/uba-ser2"
+		},
+		"AzureSqlDatabase336_properties_groupId": {
+			"value": "sqlServer"
+		},
+		"AzureSqlDatabase336_properties_fqdns": {
+			"value": [
+				"uba-ser2.database.windows.net"
+			]
+		},
+		"AzureSqlDatabase354_properties_privateLinkResourceId": {
+			"value": "/subscriptions/4be40ab3-4495-4f7d-bb7c-148801189940/resourceGroups/rg-uba/providers/Microsoft.Sql/servers/uba-serv"
+		},
+		"AzureSqlDatabase354_properties_groupId": {
+			"value": "sqlServer"
+		},
+		"AzureSqlDatabase354_properties_fqdns": {
+			"value": [
+				"uba-serv.database.windows.net"
+			]
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
