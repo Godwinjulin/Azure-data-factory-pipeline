@@ -2,7 +2,7 @@
 	"name": "ubaadf",
 	"properties": {
 		"globalConfigurations": {
-			"PolicyValidationEnabled": "false"
+			"PolicyValidationEnabled": "true"
 		}
 	},
 	"location": "uksouth",
