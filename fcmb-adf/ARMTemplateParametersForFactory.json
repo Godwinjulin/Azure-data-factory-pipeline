@@ -1,0 +1,32 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "fcmb-adf"
+		},
+		"AzureSqlDatabase1_password": {
+			"value": ""
+		},
+		"AzureSqlDatabase1_properties_typeProperties_server": {
+			"value": "fcmb-serv.database.windows.net"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_database": {
+			"value": "fcmb-dbs"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_userName": {
+			"value": "fcmbadm"
+		},
+		"AzureSqlDatabase738_properties_privateLinkResourceId": {
+			"value": "/subscriptions/4be40ab3-4495-4f7d-bb7c-148801189940/resourceGroups/rg-fcmb/providers/Microsoft.Sql/servers/fcmb-serv"
+		},
+		"AzureSqlDatabase738_properties_groupId": {
+			"value": "sqlServer"
+		},
+		"AzureSqlDatabase738_properties_fqdns": {
+			"value": [
+				"fcmb-serv.database.windows.net"
+			]
+		}
+	}
+}
