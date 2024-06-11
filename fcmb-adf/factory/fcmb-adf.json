@@ -1,0 +1,9 @@
+{
+	"name": "fcmb-adf",
+	"location": "uksouth",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "9789e8f3-a870-4615-b278-c00c64d240ff",
+		"tenantId": "2ec74eb2-8abf-41e4-8db5-76aa27481130"
+	}
+}

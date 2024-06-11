@@ -1,0 +1,10 @@
+{
+	"name": "AzureSqlDatabase738",
+	"properties": {
+		"privateLinkResourceId": "/subscriptions/4be40ab3-4495-4f7d-bb7c-148801189940/resourceGroups/rg-fcmb/providers/Microsoft.Sql/servers/fcmb-serv",
+		"groupId": "sqlServer",
+		"fqdns": [
+			"fcmb-serv.database.windows.net"
+		]
+	}
+}
